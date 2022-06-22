@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Anek+Latin:wght@600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header .ehlel{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display:grid;
+    grid-template-columns: repeat(12,8.3%);
+    grid-template-rows: repeat(1, 100%);
+}
+header .ehlel .gogo{
+    display: flex;
+    grid-column: 2/3;
+}
+header .ehlel .gogo p {
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .ehlel .gogo p.hoh{
+    color: blue;
+}
+header .ehlel .gogo p.tsenher{
+    color: #00adee;
+}
